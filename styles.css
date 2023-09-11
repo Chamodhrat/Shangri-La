@@ -460,9 +460,57 @@ footer {
     text-align: center;
 }
 
+
 /* Styles for the Gallery Page */
 
+.gallery {
+  border: 1px solid #ccc;
+}
 
+.gallery:hover {
+  border: 1px solid #777;
+}
+
+.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+.desc {
+  padding: 15px;
+  text-align: center;
+  color: #000000;
+  background-color: #fff;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.responsive {
+  padding: 0 6px;
+  float: left;
+  width: 24.99999%;
+}
+
+@media only screen and (max-width: 700px) {
+  .responsive {
+    width: 49.99999%;
+    margin: 6px 0;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .responsive {
+    width: 100%;
+  }
+}
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
 
 
 
@@ -508,6 +556,29 @@ footer {
     margin: 0 10px;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+/* Media Query for Small Screens (Mobile) */
+@media screen and (max-width: 768px) {
+    /* Section heading */
+    .about h2 {
+        font-size: 24px; /* Reduce font size for smaller screens */
+        margin-bottom: 15px;
+    }
+
+    /* Paragraph text */
+    .about p {
+        font-size: 14px; /* Reduce font size for smaller screens */
+        margin-bottom: 15px;
+    }
+
+    /* Adjust padding or margins as needed for smaller screens */
+    .about-images {
+        margin-bottom: 15px;
+    }
+
+    .about-images img {
+        margin: 0 5px; /* Reduce spacing between images for smaller screens */
+    }
 }
 
 /*Booking*/
