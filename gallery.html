@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Shangri-La Hotel</title>
+        <link rel="apple-touch-icon" sizes="180x180" href="./apple-touch-icon.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="./favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="./favicon-16x16.png">
+        <link rel="manifest" href="./site.webmanifest">
+        <meta name="msapplication-TileColor" content="#da532c">
+        <meta name="theme-color" content="#ffffff">
+        <link rel="stylesheet" href="style.css"> <!-- You can create a separate CSS file for styling -->
+    </head>
+<body>
+    
+    <input type="checkbox" id="menu-toggle" class="menu-toggle">
+    <header>
+        <div class="logo">
+            <img src="pngwing.com.png" alt="Logo">
+        </div>
+        <label for="menu-toggle" class="menu-icon"><img  width="50%" src="134216_menu_lines_hamburger_icon (2).png"> </label>
+        <nav>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="restaurants.html">Restaurants</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+                <li><a href="booking.html">Booking</a></li>
+                <li><a href="branches.html">Hotel Branches</a></li>
+                <li><a href="adventure.html">Adventure</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="gs">
+      <div class="g">
+          
+          <img src="g1.jpg">
+          <img src="g2.jpg">
+          <img src="g3.jpg">
+          <img   src="g4.jpg">
+ 
+          </div>
+  
+
+  
+      <div class="g">
+          
+          <img src="g5.jpg">
+          <img src="g6.jpg">
+          <img src="g7.jpg">
+          <img   src="g8.jpg">
+ 
+          </div>
+  
+        </section>
+
+
+
+
+
+  
+ <!-- Footer Section -->
+ <footer>
+    <div class="footer-content">
+        <div class="footer-logo">
+            <img src="pngwing.com.png" alt="Your Logo">
+        </div>
+        <div class="footer-social">
+            <a href="#"><img width="40px" height="40px"src="Facebook.png" alt="Facebook"></a>
+            <a href="#"><img width="40px" height="40px"src="Twitter.png" alt="Twitter"></a>
+            <a href="#"><img width="40px" height="40px"src="Instagram.png" alt="Instagram"></a>
+        </div>
+    </div>
+    
+</footer>
+
+
+<script>
+    // JavaScript for mobile menu toggle
+    document.querySelector(".menu-icon").addEventListener("click", function() {
+        const navLinks = document.querySelector(".nav-links");
+        navLinks.classList.toggle("active");
+    });
+</script>
+</body>
+</html>

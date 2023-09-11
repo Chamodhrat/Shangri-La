@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Shangri-La Hotel</title>
+        <link rel="apple-touch-icon" sizes="180x180" href="./apple-touch-icon.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="./favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="./favicon-16x16.png">
+        <link rel="manifest" href="./site.webmanifest">
+        <meta name="msapplication-TileColor" content="#da532c">
+        <meta name="theme-color" content="#ffffff">
+        <link rel="stylesheet" href="styles.css"> <!-- You can create a separate CSS file for styling -->
+    </head>
+<body>
+    
+    <input type="checkbox" id="menu-toggle" class="menu-toggle">
+    <header>
+        <div class="logo">
+            <img src="pngwing.com.png" alt="Logo">
+        </div>
+        <label for="menu-toggle" class="menu-icon"><img  width="50%" src="134216_menu_lines_hamburger_icon (2).png"> </label>
+        <nav>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="restaurants.html">Restaurants</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+                <li><a href="booking.html">Booking</a></li>
+                <li><a href="branches.html">Hotel Branches</a></li>
+                <li><a href="adventure.html">Adventure</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Banner Section with Background Image and Text -->
+    <section class="banner">
+        <img src="37520646-0.jpeg" alt="Shangri-La Banner Image">
+        <div class="banner-text">
+            <h1>Shangri-La Colombo</h1>
+            <p>An oasis of luxury in the bustling city of Colombo</p>
+        </div>
+    </section>
+
+    <!-- Video Section -->
+    <section class="video">
+        <iframe width="100%" height="360" src="https://www.youtube.com/embed/6IQCuTEKlCo" title="Discover Shangri-La Colombo" frameborder="2"  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    </section>
+
+    <!-- Three Content Sections with Paragraph, Heading, and Image -->
+    <section class="content">
+        <div class="content-item">
+            <h2>Shangri-la Hotels</h2>
+            <p>Shangri-La Hotels are five-star luxury hotels located in premier city addresses across Asia Pacific, North America, the Middle East, and Europe. "To treat a stranger as one of our own" characterizes the hospitality one can expect from Shangri-La. Discerning travelers will enjoy world-class service amidst tranquil surroundings.</p>
+            <img src="index1.jpg" alt="Image 1">
+        </div>
+
+        <div class="content-item">
+            <h2>Shangri-La Resorts</h2>
+            <p>At Shangri-La Resorts, we host people to the colorful joys of life and enrich the Mind, Body, and Soul. With our warm-hearted and dedicated people, meticulous programming, holistic spa treatments, nourishing cuisine, and unique locations, guests will depart from their stay at Shangri-La Resorts feeling more enriched than when they arrived.</p>
+            <img src="index2.jpg" alt="Image 2">
+        </div>
+
+        <div class="content-item">
+            <h2>The Shangri-La Circle</h2>
+            <p>Join Shangri-La Circle today. Whether you’re here for a bite or a string of nights, join as a member to enjoy exclusive benefits and a seamless digital experience. Download the mobile app for more information about the exclusive circle of Shangri-La.</p>
+            <img src="index3.jpg" alt="Image 3">
+        </div>
+    </section>
+    <section class="content">
+
+        <div class="content-item">
+            <ul>
+        <br>        <li>Oceanfront Elegance: The hotel exudes an atmosphere of oceanfront elegance, providing a serene and relaxing ambiance.</li>
+        <br>        <li>Rooftop Serenity: Guests can unwind at the rooftop lounge, taking in the stunning sunset views over the Indian Ocean.</li>
+        <br>        <li>Local Exploration: With its central location, the hotel serves as an excellent base for exploring Colombo's markets, neighborhoods, and cultural attractions.</li>
+        <br>        <li>Waterfront Promenade: Enjoy leisurely walks along the nearby Galle Face Green, a popular waterfront promenade.</li>
+        <br>        <li>Cultural Diversity: Experience the vibrant cultural diversity of Colombo, with its mix of modernity and tradition, right at your doorstep.</li>
+              </ul>
+              
+         </div>  
+
+
+         <div class="content-item">
+           
+           <img src="r1.jpg" size="90%">
+         </div>  
+
+        <div class="content-item">
+           
+            <ol>
+                <li>Location: Shangri-La Colombo is ideally situated in the heart of Colombo, Sri Lanka, offering easy access to the city's attractions.</li>
+        </br>   <li>Architectural Beauty: The hotel is known for its striking architectural design, blending modern luxury with traditional Sri Lankan influences.</li>
+        </br>   <li>Sweeping Views: Guests can enjoy breathtaking views of the Indian Ocean from many parts of the hotel, including rooms, restaurants, and the rooftop.</li>
+        </br>   <li>Culinary Delights: Shangri-La Colombo offers a diverse culinary experience with a range of dining options, including international and local cuisine.</li>
+        </br>   <li>Cultural Proximity: It's close to cultural landmarks like Galle Face Green and historical sites that showcase Colombo's rich heritage.</li>
+              </ol>
+         </div>   
+
+          
+
+       
+    </section>       
+    <!-- Footer Section -->
+    <footer>
+        <div class="footer-content">
+            <div class="footer-logo">
+                <img src="pngwing.com.png" alt="Your Logo">
+            </div>
+            <div class="footer-social">
+                <a href="#"><img width="40px" height="40px"src="Facebook.png" alt="Facebook"></a>
+                <a href="#"><img width="40px" height="40px"src="Twitter.png" alt="Twitter"></a>
+                <a href="#"><img width="40px" height="40px"src="Instagram.png" alt="Instagram"></a>
+            </div>
+        </div>   
+        
+    </footer>
+
+
+    <script>
+        // JavaScript for mobile menu toggle
+        document.querySelector(".menu-icon").addEventListener("click", function() {
+            const navLinks = document.querySelector(".nav-links");
+            navLinks.classList.toggle("active");
+        });
+    </script>
+    
+</body>
+</html>
