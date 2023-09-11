@@ -1,0 +1,243 @@
+html {
+
+    scroll-behavior:smooth;
+  }html {
+
+    scroll-behavior:smooth;
+  }
+
+  body, h1, h2, p, ul, li {
+    margin: 20px;
+    padding: 0;
+    font-family: "Arial", sans-serif;
+    
+}
+
+/* Set a background color for the entire page */
+body {
+    background-color: hsl(0, 4%, 15%);
+}
+
+/* Style the header */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: hsl(0, 4%, 15%);
+    padding: 10px 20px; /* Increased padding for better spacing */
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1); /* Adjusted box shadow */
+    
+}
+
+.logo img {
+    max-width: 100px;
+    height: auto;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 10px;
+}
+
+nav ul li:last-child {
+    margin-right: 10px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+#menu-toggle{
+  position:absolute;
+  top: -100px;
+}
+.menu-icon{
+  display: none;
+  position:relative;
+  right: 3%;
+  top: 25%;
+  transform: translate(-50%);
+}
+nav a:hover {
+    color: #ff6600;
+}
+
+
+
+.eventes {
+    padding: 60px;
+    background-color: hsl(0, 1%, 23%);
+    margin: 70px;
+    box-shadow: 0px 2px 5px rgb(0, 0, 0);
+    border-radius: 40px;
+    align-items: center;
+}
+
+
+
+.event {
+    display: flex; /* Use flexbox to arrange items horizontally */
+    flex-direction: column; /* Stack items vertically within each event */
+    background-color: hsl(0, 1%, 23%);
+    align-items: auto;
+    border-radius: 10px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+    
+}
+
+.event h2 {
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #ffffff;
+}
+
+.event p {
+    font-size: 20px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+    color: #ffffff;
+    padding: 2%;
+}
+
+.event img {
+    max-width: 1800px; /* Adjust image width as needed */
+    height: 600px;
+    border-radius: 10px;
+    
+    
+}
+
+footer {
+    text-align: center;
+    background-color: hsl(0, 4%, 15%);
+    padding: 20px 0;
+    color: #fff;
+    font-size: 14px;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1800px;
+    margin: 0 auto;
+}
+
+.footer-logo img {
+    max-width: 100px;
+    height: auto;
+}
+
+.footer-social a {
+    margin-left: 10px;
+    max-width: 100px;
+    height: auto;
+    size: 10%;
+}
+
+@media (max-width: 768px) {
+    .content {
+        flex-direction: column; /* Display items as a column */
+    }
+
+    .content-item {
+        flex-basis: 100%; /* Take up the full width */
+        margin-right: 0; /* Remove right margin */
+    }
+
+    .menu-icon {
+        display: block; /* Show the hamburger icon on smaller screens */
+        cursor: pointer;
+        font-size: 24px;
+        margin-left: auto; /* Adjusted margin for spacing */
+        color: #fff; /* Set the color for the hamburger icon */
+        
+    }
+
+    .nav-links {
+        list-style: none;
+        display: none;
+        flex-direction: column;
+        background-color: hsl(0, 4%, 15%);
+        position: absolute;
+        top: 60px;
+        right: 0; /* Adjusted to align with the right edge of the header */
+        text-align: center;
+        z-index: 1;
+        width: 100%;
+        padding: 20px 0; /* Added padding for better spacing */
+    }
+
+    .nav-links.active {
+        display: flex;
+    }
+
+    .nav-links li {
+        margin: 10px 0;
+    }
+
+    .nav-links a {
+        color: #fff;
+        text-decoration: none;
+        font-weight: bold;
+        transition: color 0.3s;
+    }
+
+    .nav-links a:  {
+        color: #ff6600;
+    }
+}
+
+
+.events {
+    padding: 60px;
+    background-color: hsl(0, 1%, 23%);
+    margin: 70px;
+    box-shadow: 0px 2px 5px rgb(0, 0, 0);
+    border-radius: 40px;
+    align-items: center;
+    
+}
+
+
+
+
+.event {
+    display: flex; /* Use flexbox to arrange items horizontally */
+    flex-direction: column; /* Stack items vertically within each event */
+    background-color: hsl(0, 1%, 23%);
+    align-items: auto;
+    border-radius: 10px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+    
+}
+
+.event h2 {
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #ffffff;
+}
+
+.event p {
+    font-size: 20px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+    color: #ffffff;
+    padding: 2%;
+}
+
+.event img {
+    max-width: 1800px; /* Adjust image width as needed */
+    height: 600px;
+    border-radius: 10px;
+    
+    
+}
