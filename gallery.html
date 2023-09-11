@@ -10,10 +10,9 @@
         <link rel="manifest" href="./site.webmanifest">
         <meta name="msapplication-TileColor" content="#da532c">
         <meta name="theme-color" content="#ffffff">
-        <link rel="stylesheet" href="style.css"> <!-- You can create a separate CSS file for styling -->
+        <link rel="stylesheet" href="styles.css"> <!-- You can create a separate CSS file for styling -->
     </head>
 <body>
-    
     <input type="checkbox" id="menu-toggle" class="menu-toggle">
     <header>
         <div class="logo">
@@ -34,56 +33,109 @@
         </nav>
     </header>
 
-    <section class="gs">
-      <div class="g">
-          
-          <img src="g1.jpg">
-          <img src="g2.jpg">
-          <img src="g3.jpg">
-          <img   src="g4.jpg">
- 
-          </div>
-  
-
-  
-      <div class="g">
-          
-          <img src="g5.jpg">
-          <img src="g6.jpg">
-          <img src="g7.jpg">
-          <img   src="g8.jpg">
- 
-          </div>
-  
-        </section>
-
-
-
-
-
-  
- <!-- Footer Section -->
- <footer>
-    <div class="footer-content">
-        <div class="footer-logo">
-            <img src="pngwing.com.png" alt="Your Logo">
-        </div>
-        <div class="footer-social">
-            <a href="#"><img width="40px" height="40px"src="Facebook.png" alt="Facebook"></a>
-            <a href="#"><img width="40px" height="40px"src="Twitter.png" alt="Twitter"></a>
-            <a href="#"><img width="40px" height="40px"src="Instagram.png" alt="Instagram"></a>
-        </div>
-    </div>
     
+    <div class="responsive">
+        <div class="gallery">
+          <a target="_blank" href="g1.jpg">
+            <img src="g1.jpg" alt="Cinque Terre">
+          </a>
+          <div class="desc">Outside beach view</div>
+        </div>
+      </div>
+      
+      <div class="responsive">
+        <div class="gallery">
+          <a target="_blank" href="g2.jpg">
+            <img src="g2.jpg" alt="Forest">
+          </a>
+          <div class="desc">Dining area</div>
+        </div>
+      </div>
+      
+      <div class="responsive">
+        <div class="gallery">
+          <a target="_blank" href="g5.jpg">
+            <img src="g5.jpg" alt="Northern Lights">
+          </a>
+          <div class="desc">Single bedroom</div>
+        </div>
+      </div>
+      
+      <div class="responsive">
+        <div class="gallery">
+          <a target="_blank" href="g4.jpg">
+            <img src="g4.jpg" alt="Mountains">
+          </a>
+          <div class="desc">Viewdeck</div>
+        </div>
+      </div>
+      
+      <div class="clearfix"></div>
+
+<div class="responsive">
+        <div class="gallery">
+          <a target="_blank" href="pexels-pixabay-261102 (1).jpg">
+            <img src="pexels-pixabay-261102 (1).jpg" alt="Cinque Terre">
+          </a>
+          <div class="desc">pool</div>
+        </div>
+      </div>
+      
+      <div class="responsive">
+        <div class="gallery">
+          <a target="_blank" href="r3.jpg">
+            <img src="r3.jpg" alt="Forest">
+          </a>
+          <div class="desc">suite</div>
+        </div>
+      </div>
+      
+      <div class="responsive">
+        <div class="gallery">
+          <a target="_blank" href="r2.jpg">
+            <img src="r2.jpg" alt="Northern Lights">
+          </a>
+          <div class="desc">double room</div>
+        </div>
+      </div>
+      
+      <div class="responsive">
+        <div class="gallery">
+          <a target="_blank" href="r1.jpg">
+            <img src="r1.jpg" alt="Mountains">
+          </a>
+          <div class="desc">deluxe room </div>
+        </div>
+      </div>
+      
+      <div class="clearfix"></div>
+
+
+
+
+
+ 
+<footer>
+        <div class="footer-content">
+            <div class="footer-logo">
+                <img src="pngwing.com.png" alt="Your Logo">
+            </div>
+            <div class="footer-social">
+                <a href="#"><img width="40px" height="40px"src="Facebook.png" alt="Facebook"></a>
+                <a href="#"><img width="40px" height="40px"src="Twitter.png" alt="Twitter"></a>
+                <a href="#"><img width="40px" height="40px"src="Instagram.png" alt="Instagram"></a>
+            </div>
+        </div>    
 </footer>
 
 
-<script>
-    // JavaScript for mobile menu toggle
-    document.querySelector(".menu-icon").addEventListener("click", function() {
-        const navLinks = document.querySelector(".nav-links");
-        navLinks.classList.toggle("active");
-    });
-</script>
+    <script>
+        // JavaScript for mobile menu toggle
+        document.querySelector(".menu-icon").addEventListener("click", function() {
+            const navLinks = document.querySelector(".nav-links");
+            navLinks.classList.toggle("active");
+        });
+    </script>
+    
 </body>
 </html>
