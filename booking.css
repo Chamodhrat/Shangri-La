@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Chivo:wght@400&display=swap');
+
+body {
+    font-family: 'Chivo', sans-serif;
+    margin: 0;
+    padding: 0;
+    
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url("Drone6.webp");
+    background-size: cover; /* Ensure the background image covers the entire viewport */
+    background-position: center; /* Center the background image */
+    background-color: rgba(244, 244, 244, 0.7); /* Light background color with transparency */
+}
+
+#booking-form {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 10 10 60px rgba(255, 223, 0, 0.5);
+    width: 800px;
+    text-align: left;
+    
+}
+label {
+    display: block;
+    margin-bottom: 10px;
+    color: #333; /* Dark label text color */
+}
+
+input,
+select,
+button {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 15px;
+    box-sizing: border-box;
+    background-color: #f9f9f9; /* Light input background color */
+    color: #333; /* Dark text color */
+    border: 1px solid #ffd700; /* Gold border */
+    border-radius: 4px;
+    color: black;
+}
+
+button {
+    background-color: #ffd700; /* Gold button background color */
+    color: #fff; /* White text color */
+    cursor: pointer;
+    color: black;
+}
+
+button:hover {
+    background-color: #cca300; /* Darker gold on hover */
+}
+
+#booking-details {
+    margin-top: 20px;
+    color: #333; /* Dark text color */
+}
